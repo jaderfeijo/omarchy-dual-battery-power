@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "jaderfeijo.power",
+  "name": "Power (dual battery)",
+  "version": "1.1.0",
+  "author": "jaderfeijo",
+  "description": "Omarchy power panel with combined totals and per-battery details for two-battery laptops",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Power (dual battery)",
+    "description": "Battery, power profile, and system stats for two batteries",
+    "category": "System",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.power"
+  }
+}
